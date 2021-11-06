@@ -1,6 +1,6 @@
-# synth-me
+# NLP TTS System in Hindi
 
-Synth-me is a concatenative text-to-speech engine implemented in Python.
+This is a concatenative text-to-speech engine implemented in Python.
 
 I started this project in January 2015 because I was intrigued by text-to-speech software and wanted to learn more about how it worked.
 

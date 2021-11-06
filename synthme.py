@@ -13,7 +13,7 @@ if __name__ == "__main__":
 	# t = "भेजना चाहते हैं हिंदी में मैसेज लेकिन नहीं"
 	# for i in t:
 		# print(i)
-		ज़ू
+		# ज़ू
 
 
 	tts.text_to_speech(message, debug=True, use_pronunciation_dict=True)
