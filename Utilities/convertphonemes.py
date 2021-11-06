@@ -2,7 +2,7 @@
 # Takes list of words and finds appropriate phonemes
 # If phoneme not found, an educated guess is made
 
-from synthme import phonemes, util
+from Utilities import phonemes, util
 import ast, re
 
 def words_to_phonemes(words, use_pronunciation_dict=True):

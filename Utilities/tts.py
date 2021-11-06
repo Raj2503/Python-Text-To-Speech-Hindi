@@ -4,7 +4,7 @@
 DATABASE_NAME = "data/pronunciation.db"
 OUTPUT_FILE = "output.wav"
 
-from synthme import convertphonemes, convertsounds, util
+from Utilities import convertphonemes, convertsounds, util
 
 def text_to_speech(message, output_file=OUTPUT_FILE, debug=False, use_pronunciation_dict=True):
 	if debug: print("Text to Speech Generation started.")

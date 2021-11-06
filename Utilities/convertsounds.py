@@ -1,10 +1,10 @@
 # convertsounds.py
 # Matches each phoneme from list with appropriate wav file
 
-from synthme import phonemes
+from Utilities import phonemes
 import wave, os
 
-VOICE_PATH = os.path.dirname(__file__) + "/../data/voices/steve/"
+VOICE_PATH = os.path.dirname(__file__) + "/../data/voices/"
 
 def phonemes_to_sounds(phoneme_list, outfile):
 	infiles = []
