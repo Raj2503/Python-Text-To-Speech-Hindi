@@ -1,6 +1,5 @@
-# convertphones.py
 # Takes list of words and finds appropriate phonemes
-# If phoneme not found, an educated guess is made
+# If phoneme not found, an (un)educated guess is made
 
 from Utilities import phonemes, util
 import ast, re
@@ -32,67 +31,8 @@ def phoneme_blocks_to_list(blocks):
 
 
 def phoneme_scan(word):
-	# while re.search("[ट]", word): # Keep replacing letters with phonemes in brackets [] until there are no more letters
-		# Special patterns
-		# while re.search("[a-zA-Z.,;!?]", word):
+	# Takes a word and returns a string of phonemes
 	while re.search("[अ-ॐ.,;!?]", word):
-
-		# word = replace_with_phoneme(word, r'iew', (phonemes.CONS_Y, phonemes.VOWEL_OO,phonemes.CONS_W))
-		
-		# word = replace_with_phoneme(word, r'oo', (phonemes.VOWEL_OO,))
-		# word = replace_with_phoneme(word, r'ou', (phonemes.VOWEL_OO,))
-		# word = replace_with_phoneme(word, r'ea', (phonemes.VOWEL_II,))
-		# word = replace_with_phoneme(word, r'ee', (phonemes.VOWEL_II,))
-
-		# word = replace_with_phoneme(word, r'gg', (phonemes.CONS_J,))
-		# word = replace_with_phoneme(word, r'dd', (phonemes.CONS_D,))
-		# word = replace_with_phoneme(word, r'ph', (phonemes.CONS_F,))
-		# word = replace_with_phoneme(word, r'll', (phonemes.CONS_L,))
-		# word = replace_with_phoneme(word, r'ss', (phonemes.CONS_S,))
-		# word = replace_with_phoneme(word, r'nn', (phonemes.CONS_N,))
-		# word = replace_with_phoneme(word, r'ch', (phonemes.CONS_CH,))
-		# word = replace_with_phoneme(word, r'sh', (phonemes.CONS_SH,))
-		# word = replace_with_phoneme(word, r'th', (phonemes.CONS_TH,))
-		# word = replace_with_phoneme(word, r'ck', (phonemes.CONS_K,))
-
-# 		# Default letters
-# क
-# ख
-# ग
-# घ
-# ङ
-# च
-# छ
-# ज
-# झ
-# ञ
-# ट
-# ठ
-# ड
-# ढ
-# ण
-# त
-# थ
-# द
-# ध
-# न
-# ऩ
-# प
-# फ
-# ब
-# भ
-# म
-# य
-# र
-# ऱ
-# ल
-# ळ
-# ऴ
-# व
-# श
-# ष
-# स
-# ह
 
 		word = replace_with_phoneme(word, "अ", (phonemes.VOWEL_U,))
 		word = replace_with_phoneme(word, "आ", (phonemes.VOWEL_A,))
@@ -164,11 +104,6 @@ def phoneme_scan(word):
 
 		word = replace_with_phoneme(word, "ज़", (phonemes.CONS_Z,))
 
-
-		# word = replace_with_phoneme(word, "q", (phonemes.CONS_K,))
-
-		# word = replace_with_phoneme(word, "w", (phonemes.CONS_W,))
-		# word = replace_with_phoneme(word, "x", (phonemes.CONS_K, phonemes.CONS_S))
 		word = replace_with_phoneme(word, ".", (phonemes.PUNC_PERIOD,))
 		word = replace_with_phoneme(word, ",", (phonemes.PUNC_COMMA,))
 		word = replace_with_phoneme(word, ";", (phonemes.PUNC_COMMA,))

@@ -1,4 +1,3 @@
-# convertsounds.py
 # Matches each phoneme from list with appropriate wav file
 
 from Utilities import phonemes

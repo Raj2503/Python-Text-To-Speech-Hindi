@@ -1,7 +1,5 @@
-# tts.py
 # Pulls all three pieces together: convertwords, convertphonemes, convertsounds
 
-DATABASE_NAME = "data/pronunciation.db"
 OUTPUT_FILE = "output.wav"
 
 from Utilities import convertphonemes, convertsounds, util
