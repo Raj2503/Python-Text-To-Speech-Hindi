@@ -4,7 +4,7 @@
 * **Phonemes-to-sounds**, where each phoneme is paired with an audio file. This is the point where the actual audio is stitched together. It would also be in this step that the correct voice for the audio is selected, assuming multiple voices are supported.
 
 ## Future Work
-Right now the system has only one voice, that is mine and my project buddy's [@Raj2503][1]. We would love to add a few more voices to it.
+Right now the system has only one voice, that is mine and my project buddy's [@SarthakSavasil][1]. We would love to add a few more voices to it.
 Also the Phoneme database is limited to only 44 audio files (at the time I am writing this) covering all the major and frequently used Hindi Alphabets.
 So we need to build a bigger Phonetic voice database.
 
@@ -26,4 +26,4 @@ Follow the steps below to try the speech synthesizer out.
 5. You will be prompted to input a message. Enter what you want the system to say for you!
 6. The program will generate the output as a .wav file and end. Open output.wav to hear the result.
 
-[1]:https://github.com/Raj2503
+[1]:https://github.com/SarthakSavasil
