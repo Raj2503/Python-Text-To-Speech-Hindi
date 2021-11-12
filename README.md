@@ -1,6 +1,7 @@
-**Python Hindi TTS** is a Concatenative Text-to-Speech system implemented in Python.
+## **Python Hindi TTS**
+It is a Concatenative Text-to-Speech system implemented in Python.
 
-We started this project in January 2015 as** Natural Language Processing** Course-Work project.
+We started this project in January 2015 as **Natural Language Processing** Course-Work project.
 
 A concatenative text-to-speech system creates an audio representation of text by pasting together a bunch of small audio files to form the whole of the output.
 
@@ -15,7 +16,7 @@ Right now the system has only one voice, that is mine and my project buddy's [@S
 Also the Phoneme database is limited to only 44 audio files (at the time I am writing this) covering all the major and frequently used Hindi Alphabets.
 So we need to build a bigger Phonetic voice database.
 
-Do contribute to it if you can. It will really help us and make this project grow.
+**Do contribute to it if you can. It will really help us and make this project grow.**
 
 ## Dependencies
 This project relies on 
