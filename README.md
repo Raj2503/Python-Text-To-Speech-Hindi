@@ -11,6 +11,8 @@ There are three steps, including:
 * **Words-to-phonemes**, where the array of words is converted into phonemes. Phonemes are the individual sounds in a language. As Hindi has a very vast phonetic genre, the  hindi alphabetic pronunciation can vary change the pronunciation of the whole word. System has already mapped the hindi phonetic sounds to their alphabets, so whenever the alphabet is detected, the system just maps to its audio file and return its number. The output is an list of numbers that each correspond to one of the 44 hindi phonemes.
 * **Phonemes-to-sounds**, where each phoneme is paired with an audio file. This is the point where the actual audio is stitched together. It would also be in this step that the correct voice for the audio is selected, assuming multiple voices are supported.
 
+Do refer to [Synthme][2] if want the English implementation of the same. It was a really inspiring and helpful resource to us.
+
 ## Future Work
 Right now the system has only one voice, that is mine and my project buddy's [@SarthakSavasil][1]. We would love to add a few more voices to it.
 Also the Phoneme database is limited to only 44 audio files (at the time I am writing this) covering all the major and frequently used Hindi Alphabets.
@@ -35,3 +37,4 @@ Follow the steps below to try the speech synthesizer out.
 6. The program will generate the output as a .wav file and end. Open output.wav to hear the result.
 
 [1]:https://github.com/SarthakSavasil
+[2]:https://github.com/stephengrice/synth-me
