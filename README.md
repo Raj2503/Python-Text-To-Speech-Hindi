@@ -1,3 +1,10 @@
+Python Hindi TTS is a concatenative text-to-speech system implemented in Python.
+
+We started this project in January 2015 as Natural Language Processing Course-Work project.
+
+A concatenative text-to-speech system creates an audio representation of text by pasting together a bunch of small audio files to form the whole of the output.
+
+There are three steps, including:
 
 * **Text-to-words**, where raw input text is tokenized into an list of words. This also generally includes converting numerical digits into their word equivalents (ex: turn "5" into "five").
 * **Words-to-phonemes**, where the array of words is converted into phonemes. Phonemes are the individual sounds in a language. As Hindi has a very vast phonetic genre, the  hindi alphabetic pronunciation can vary change the pronunciation of the whole word. System has already mapped the hindi phonetic sounds to their alphabets, so whenever the alphabet is detected, the system just maps to its audio file and return its number. The output is an list of numbers that each correspond to one of the 44 hindi phonemes.
